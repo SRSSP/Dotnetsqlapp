@@ -18,13 +18,6 @@ namespace DotNetAppSqlDb.Controllers
     {
         private MyDatabaseContext db = new MyDatabaseContext();
 
-        //public void SignIn()
-        //{
-        //    if (!Request.IsAuthenticated)
-        //    {
-        //        HttpContext.GetOwinContext().Authentication.Challenge(new AuthenticationProperties { RedirectUri = "/" }, OpenIdConnectAuthenticationDefaults.AuthenticationType);
-        //    }
-        //}
         public ActionResult Index()
         {
             //SignIn();
